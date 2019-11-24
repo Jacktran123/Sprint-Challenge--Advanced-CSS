@@ -5,15 +5,15 @@
     padding: @padding;
     width: inherit;
     text-align: center;
-    border-radius: 13px;
-        &:hover{
-            background: darken(@background,20%);
-            color: white;
-        }
+    border-radius: 5px;
+      
 }
 
-.button-mobile(@background){
+.button-mobile(){
     @media @phone{
-    background: @background;
+    width: 80vw;
+    padding: 20px;
+    font-size: 3rem;
+    margin-bottom: 10px;
     }
 } 
