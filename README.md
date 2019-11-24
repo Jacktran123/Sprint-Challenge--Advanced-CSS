@@ -33,14 +33,18 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. What is the difference between an adaptive website and a fully responsive website?
+   Adaptive website adjust to the width of the screen thanks to relative unit like % and vw, vh. Fully responsive design use the help of both relative unit and @media tag to adjust to layout of the website base on the viewport.
 
 2. Describe what it means to be mobile first vs desktop first.
-
+  If design for mobile first, the developer will then use min-width instead of max-width if they are design for desktop first.
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
+    font-size: 62.5% the element will adjust its size according to it parent element. On the other hand, rem unit will make the element refer to it root elemet.
 
 4. How would you describe preprocessing to someone new to CSS?
+    I would say that preprocesssing CSS is when js become a middle to intercept what we wrote and turn it into regular CSS.
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+        My favorite concept is nesting, it makes sense and really convenient to use. On the other hand, parametric mixin seems very redundant to me, I don't think Im going to use it as much as I do with nesting, variables.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
